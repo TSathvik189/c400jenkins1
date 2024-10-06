@@ -13,6 +13,6 @@ RUN pip install -r requirements.txt
 COPY . /app
 
 # configure the container to run in an executed manner
-EXPOSE 5001
+EXPOSE 5000
 
 CMD ["python","app.py" ]
